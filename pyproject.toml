@@ -6,7 +6,7 @@ authors = ["Richard Shiao"]
 include = ["perfsize/py.typed"]
 
 [tool.poetry.dependencies]
-python = "^3.7.1"
+python = "^3.8.11"
 PyYAML = "^5.4.1"
 pandas = "^1.2.4"
 numpy = "^1.20.3"
