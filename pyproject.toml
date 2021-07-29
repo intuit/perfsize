@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "perfsize"
+version = "0.1.10"
+description = "Automated performance testing to determine the right size of infrastructure"
+authors = ["Richard Shiao"]
+include = ["perfsize/py.typed"]
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+PyYAML = "^5.4.1"
+pandas = "^1.2.4"
+numpy = "^1.20.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.1"
+pytest-cov = "^2.10.1"
+black = "^19.10b0"
+mypy = "^0.812"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
