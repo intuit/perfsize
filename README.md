@@ -317,9 +317,11 @@ git tag "v${NEW_VERSION}"
 git push && git push --tags
 ```
 
-Once pushed, GitHub Action
+Once tag is published as a release, GitHub Action
 [python-publish.yml](.github/workflows/python-publish.yml)
-will automatically publish the artifacts to PyPI.
+will publish the artifacts to
+[perfsize](https://pypi.org/project/perfsize/)
+on PyPI.
 
 
 # Contributing
